@@ -78,42 +78,42 @@ function Index() {
               price="100"
               hours="100 + hours"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              height="10rem"
+              height="12rem"
             />
 
             <PlanItem
               price="150"
               hours="180 + hours"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              height="13rem"
+              height="15rem"
             />
 
             <PlanItem
               price="200"
               hours="260 + hours"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              height="16rem"
+              height="18rem"
             />
 
             <PlanItem
               price="250"
               hours="380 + hours"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              height="19rem"
+              height="21rem"
             />
 
             <PlanItem
               price="300"
               hours="420 + hours"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              height="22rem"
+              height="24rem"
             />
 
             <PlanItem
               price="350"
               hours="520 + hours"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              height="25rem"
+              height="27rem"
             />
           </div>
         </div>
