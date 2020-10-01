@@ -1,0 +1,100 @@
+section#index-container header#apresentation {
+  background-image: url('../../assets/header.png');
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+section#index-container header#apresentation img{
+  width: 120px;
+}
+
+section#index-container header#apresentation h1{
+  font-size: 4rem;
+  color: white;
+  width: 50vw;
+  text-align: center;
+}
+
+section#index-container header#apresentation button{
+  width: 15rem;
+  height: 3.2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #383838;
+  box-shadow: 0px 0px 10px 0px rgba(38,38,38,0.5);
+}
+
+section#index-container article#content {
+  background: linear-gradient(white 65%, #F4F4F4 35%);
+}
+
+section#index-container article#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+section#index-container article#content div#categories, 
+section#index-container article#content div#plans {
+  padding-bottom: 8rem;
+  color: #383838;
+}
+
+section#index-container article#content div#categories div#categories-list h1#categories-title {
+  font-size: 4rem;
+}
+
+section#index-container article#content div#categories div#categories-list p#categories-subtitle {
+  padding-top: 0.8rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+section#index-container article#content div#categories div#categories-list {
+  padding-top: 2rem;
+}
+
+section#index-container article#content div#categories div#categories-list div#first-row,
+section#index-container article#content div#categories div#categories-list div#second-row,
+section#index-container article#content div#categories div#categories-list div#third-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section#index-container article#content div#categories div#categories-list div#second-row .category-item .info {
+  padding-top: 7rem;
+}
+
+section#index-container article#content div#categories div#categories-list div#third-row #analysis .category-item .info  {
+  padding-left: 16rem;
+  text-align: right;
+}
+
+section#index-container div#plans div#info {
+  margin-bottom: -8rem;
+}
+
+section#index-container div#plans div#info h1#plans-title {
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+
+section#index-container div#plans div#info p#plans-subtitle {
+  padding-top: 0.8rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+section#index-container div#plans div#plans-list {
+  display: flex;
+  align-items: flex-end;
+}

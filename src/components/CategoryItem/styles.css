@@ -1,0 +1,26 @@
+section.category-item {
+  padding-top: 1rem;
+}
+
+section.category-item .info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  padding: 1.5rem;
+}
+
+section.category-item .info h1 {
+  font-size: 3rem;
+}
+
+section.category-item .info p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+section.category-item img {
+  height: 20rem;
+  overflow: hidden;
+}
