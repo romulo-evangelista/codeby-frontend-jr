@@ -13,12 +13,16 @@ import PicturesImg from '../../assets/picturesImg.png';
 import './styles.css';
 
 function Index() {
+  let scrollToArticle = () => {
+    window.scroll({top: 600, left: 0, behavior: 'smooth' })
+  }
+
   return (
     <section id="index-container">
       <header id="apresentation">
         <img src={Logo} alt="Escalator logomarca"/>
         <h1>we have ideas to growth your business</h1>
-        <button>SEE NOW</button>
+        <button onClick={() => scrollToArticle()}>SEE NOW</button>
       </header>
 
       <article id="content">

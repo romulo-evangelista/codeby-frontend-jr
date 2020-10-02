@@ -21,6 +21,7 @@ section#index-container header#apresentation h1{
 }
 
 section#index-container header#apresentation button{
+  cursor: pointer;
   width: 15rem;
   height: 3.2rem;
   font-weight: 700;
