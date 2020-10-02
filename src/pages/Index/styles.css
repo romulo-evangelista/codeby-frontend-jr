@@ -39,7 +39,6 @@ section#index-container article#content {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5rem;
 }
 
 section#index-container article#content div#categories, 
@@ -99,4 +98,87 @@ section#index-container div#plans div#info p#plans-subtitle {
 section#index-container div#plans div#plans-list {
   display: flex;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  section#index-container header#apresentation {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  section#index-container header#apresentation img{
+    width: 80px;
+  }
+  
+  section#index-container header#apresentation h1{
+    font-size: 2rem;
+    width: 80vw;
+  }
+  
+  section#index-container article#content {
+    background: linear-gradient(white 65%, #F4F4F4 35%);
+  }
+  
+  section#index-container article#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section#index-container article#content div#categories div#categories-list h1#categories-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  section#index-container article#content div#categories div#categories-list p#categories-subtitle {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  
+  section#index-container article#content div#categories div#categories-list {
+    padding-top: 2rem;
+    width: 95vw;
+    overflow: hidden;
+  }
+  
+  section#index-container article#content div#categories div#categories-list div#first-row,
+  section#index-container article#content div#categories div#categories-list div#second-row,
+  section#index-container article#content div#categories div#categories-list div#third-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section#index-container article#content div#categories div#categories-list div#second-row .category-item .info {
+    padding-top: 7rem;
+  }
+  
+  section#index-container article#content div#categories div#categories-list div#third-row #analysis .category-item .info  {
+    padding-left: 16rem;
+    text-align: right;
+  }
+  
+  section#index-container div#plans div#info {
+    text-align: center;
+    margin: 0;
+  }
+  
+  section#index-container div#plans div#info h1#plans-title {
+    font-size: 2rem;
+  }
+  
+  section#index-container div#plans div#info p#plans-subtitle {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  
+  section#index-container div#plans div#plans-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
